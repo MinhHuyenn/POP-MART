@@ -1,0 +1,239 @@
+.header{
+    background-color: #F9F9FA;
+    margin: 0%;
+    padding: 0px 100px;
+    height: 94px;
+    width: 100%;
+    position: fixed;
+    z-index: 100000;
+    /* visibility: initial; */
+}
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    list-style: none;
+}
+
+.menu-item{
+  margin: 25px;
+ 
+}
+.menu-link{
+    color: #181818;
+    font-family: "Roboto Condensed",Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2.4rem;
+ 
+}
+.line{
+    position: relative;
+    height: 2px;
+    width: 100%;
+    margin:  0;
+    background-color: #B57498;
+}
+.menu-link:hover {
+    color: #B57498;
+}
+.signin{
+ 
+    display: flex;
+    position: absolute; 
+    list-style: none;
+    left: 5%;
+}
+.signin-item{
+    color: #181818;
+    font-family: "Roboto Condensed",Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2.4rem;
+}
+.signin-item:hover {
+    color: #B57498;
+}
+.beer-logo{
+  width: 170px;
+  height: 50px;
+}
+.social {
+    display: flex;
+     position: absolute; 
+    list-style: none;
+    right: 5%;
+}
+.social-link{
+    margin: 8px;  
+    position: relative;
+    color: #181818;
+}
+.social-link:hover {
+    color: #B57498;
+}
+/* menu */
+
+
+.blindbox img {
+    width: 100%;
+    margin-top: 95px;
+    margin-bottom: 60px;
+}
+
+ .limitied_edition{
+    margin-top: 35px;
+} 
+.col-md-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 430px;
+    /* align-items: baseline; */
+}
+
+.img-seriesblindbox{
+    width: 310px;
+}
+.img-info {
+    display: flex;
+align-items: center;
+    bottom: 0;
+    transform: translateY(-25%); 
+    transition: transform 0.25s linear;
+    padding-left: 10px; 
+}
+  .col-md-4:hover .img-info {
+    transform: translateY(-90%);
+    box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.025);
+    /* opacity: 1;s */
+  }
+.img-seriesblindbox:hover{
+    filter: drop-shadow(1px 1px 10px #dedede);
+}
+.infoseri{
+  width: 100%;
+  height: 0%;
+}
+
+.col-md-4:hover .img-seriesblindbox{
+    filter: drop-shadow(1px 1px 10px #dedede);}/* .team__social {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    /* visibility: hidden; */
+    /* transition: 0.2s linear;
+    padding: 0; */
+    /* height: 0; */
+  
+  .social-info   {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     position: absolute;   
+    list-style: none;
+    flex-shrink: 0; 
+     transform: translateY(-140%);   
+     padding-left: 25px; 
+ 
+}
+.team-social  {
+    margin:25px;
+position: relative; 
+    color: #181818;
+    align-items: center;
+    transition: 0.25s linear;
+    /* margin-top: 3rem; */
+    display: flex;
+    /* justify-content: center; */
+    opacity: 0; 
+    visibility: hidden; 
+    padding: 0;
+    list-style: none;
+
+}
+
+  .col-md-4:hover .team-social {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-85px);  }
+
+    .bglimited{
+        margin-top: 90px;
+        background-image:url('bglimited.png');
+        background-position-y: 0px;
+        margin-bottom: 120px;
+    }
+/* .bangchuyenmot{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+} */
+ .bangchuyen{
+    transform: translateY(110px);
+}
+    .bangchuyen-img{
+        width: 444px;
+        height: 264px;
+    }
+    .bangchuyengiua{
+width: 65%;
+    position: absolute;
+    transform: translateY(-900px);
+     padding-left: 33%; 
+     z-index: 1000;
+}
+.bangchuyentrai{
+    width: 65%;
+        position: absolute;
+        transform: translateY(-870px);
+         padding-left: 23%; 
+         opacity: 50%;
+    }
+    .bangchuyenphai{
+        width: 75%;
+            position: absolute;
+            transform: translateY(-870px);
+             padding-left:49%; 
+             opacity: 50%;
+        }
+ .bangchuyen2ben-img{
+    width: 350px;
+    height: 210px;
+}
+a.vieww-more{
+    text-decoration: none;
+    color:#B57498 ; 
+    border: 1px solid #685D89;
+    border-radius: 0%;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 8px 15px;
+    font-weight: 550;
+    /* display: flex; */
+/* align-items: center; */
+    position: absolute;
+    transform: translateY(-460px);
+        left: 720px;
+
+}
+.vieww-more:hover{
+    border: 5px solid ;
+    color:#685D89; 
+    border: 2px solid #B57498;
+    font-weight: 560;
+    font-size: 105%;
+    left: 717px;
+
+}
+ .bgfolowus{
+    width: 100%;
+    margin-top: 90px;
+ }
