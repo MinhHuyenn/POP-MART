@@ -95,6 +95,7 @@
     background-image:url('aboutus.png');
     background-position-y: 0px;
     margin-bottom: 90px;
+	 width: 100%;
 }
 .col{
     display: block;
