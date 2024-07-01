@@ -1,0 +1,157 @@
+.header{
+    background-color: #F9F9FA;
+    margin: 0%;
+    padding: 0px 100px;
+    height: 94px;
+    width: 100%;
+    position: fixed;
+    z-index: 100000;
+    /* visibility: initial; */
+}
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    list-style: none;
+}
+
+.menu-item{
+  margin: 25px;
+ 
+}
+.menu-link{
+    color: #181818;
+    font-family: "Roboto Condensed",Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2.4rem;
+ 
+}
+.line{
+    position: relative;
+    height: 2px;
+    width: 100%;
+    margin:  0;
+    background-color: #B57498;
+}
+.menu-link:hover {
+    color: #B57498;
+    font-weight:500;
+}
+.signin{
+ 
+    display: flex;
+    position: absolute; 
+    list-style: none;
+    left: 5%;
+}
+.signin-item{
+    color: #181818;
+    font-family: "Roboto Condensed",Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2.4rem;
+}
+.signin-item:hover {
+    color: #B57498;
+}
+.beer-logo{
+  width: 170px;
+  height: 50px;
+}
+.social {
+    display: flex;
+     position: absolute; 
+    list-style: none;
+    right: 5%;
+}
+.social-link{
+    margin: 8px;  
+    position: relative;
+    color: #181818;
+}
+.social-link:hover {
+    color: #B57498;
+}
+/* menu */
+
+.bg-img{
+   background-image:url('aboutus.png');
+}
+a.vieww-more{
+    text-decoration: none;
+    color:#ffffff; 
+    border: 2px solid #ffffff;
+    border-radius: 0%;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 8px 15px;
+    font-weight: 550;
+    /* display: flex; */
+/* align-items: center; */
+    position: absolute;
+     transform: translateY(-2350px); 
+        left: 520px;
+}
+.vieww-more:hover{
+    border: 1px solid ;
+    color:#B57498; 
+    font-weight: 560;
+
+}
+.list-MEGA1 {
+    height: 0;
+    transform: translateY(-2250px);
+}
+
+.col-md-3:hover  .imgMEGA  {
+    box-shadow: 0px 7px 15px #c2b2bb;
+}
+
+.add-text {
+    width: 100%;
+    font-size: 14px ;
+    color: #726492;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.addto{
+    position:relative;
+    transform: translate(7px,-30px); 
+}
+.col-md-3:hover .add-text {
+     color: #B57498;
+    
+}
+.list-MEGA2 {
+    height: 0;
+    transform: translateY(-1170px);
+}
+a.view-more{
+    text-decoration: none;
+    color:#ca90b0; 
+    border: 1px solid #ca90b0;
+    border-radius: 0%;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 8px 15px;
+    font-weight: 500;
+    /* display: flex; */
+/* align-items: center; */
+    position: absolute;
+     transform: translateY(-70px); 
+        left: 840px;
+}
+.view-more:hover{
+    border: 2px solid ;
+    color:#B57498; 
+    font-weight: 560;
+
+}
+.col-md-3:hover  .imgMEGAa  {
+    box-shadow: 0px 7px 15px #e2dfe1;
+}
